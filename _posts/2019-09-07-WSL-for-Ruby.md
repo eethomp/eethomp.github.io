@@ -3,11 +3,9 @@ layout: post
 title:  "Set up WSL for Ruby"
 ---
 
-A lot of this is from [Gorails.com](https://gorails.com/setup/windows/10) but my experiences weren't exactly smooth.
+I'm trying to learn Ruby on Rails with a friend, who has build a prototype app and put it in Git. I have a nice, fast Windows 10 machine and rather than set up a Linux VM, I was encouraged by a lot of blog posts from Ruby on Rails developers who have succesfully used the Windows Subystem for Linux (WSL). It is turning out to be er... interesting.
 
-For starters, I wouldn't recommend joining Windows Insider. If you have the Fall Creators Update you have the ability to run WSL. Joining the "Fast" circle is only a good idea if you don't use your machine for personal finances because it could expose you to insecure patches. This means you will not have WSL2 yet.
-
-Enable WSL and install Ubuntu from the Windows Store. You will now have a naked bash shell. You will be promped to make a username and password. The password is for sudo so make a note of it.
+Microsoft provides good, basic instructions for [installing WSL](https://docs.microsoft.com/en-us/windows/wsl/install-win10). I am using Ubuntu 18.04 LTS. Following the directions there, enable WSL and install Ubuntu from the Windows Store. Continue following the Microsoft directions to [launch and intialize](https://docs.microsoft.com/en-us/windows/wsl/initialize-distro) your Ubuntu shell. Be sure to make a note of the sudo password.
 
 Next, update your installation.
 ```
@@ -21,17 +19,19 @@ should not show any new files to install.
 
 ---
 ## Fix the Windows Filesystem
-Next, you need to fix the filesystem on your Ubuntu installation to talk to Windows correctly. Anything in /home/username is not accessable to Windows. If you touch the files in explorer, you will damage them. WSL doesn't have smb but your Windows 10 filesystems are mounted and you can `cd /mnt/c` to read and write from your C: drive. The problem is all files belong to root and have global read/write/execute permission bits. It's explained at [Microsoft](https://devblogs.microsoft.com/commandline/chmod-chown-wsl-improvements/). Ruby sometimes tries to chmod on files and your commands will fail if you are working on files that are on the Windows 10 side of the computer. To fix this, you have to unmount and remount your Windows drives.
+Next, you need to fix the filesystem on your Ubuntu installation to talk to Windows correctly. Anything in your normal Linux filesystem (e.g. /home, /var, /etc) is not accessable to Windows. If you open or move the files in explorer, you will corrupt them. As of the Fall 2018 Creators Update, Windows 10 filesystems are mounted and you can `cd /mnt/c` to read and write from your C: drive. The problem is all files belong to root and have global read/write/execute permission bits. It's explained in a [Microsoft devblog post](https://devblogs.microsoft.com/commandline/chmod-chown-wsl-improvements/). Ruby sometimes tries to chmod on files and your compilation will fail if your application is located in the Windows filesystem. If you want to be able to access your files from the Windows envionment, you must umount and remount your Windows drives.
 ```
 sudo umount /mnt/c
 sudo mount -t drvfs C: /mnt/c -o metadata
 ```
-Tragically, anything you edit in Windows will be changed back to root ownership and have the permissions set back to read/write/execute. If you edit a file on the windows side, `sudo chown username filename` and `chmod 644 filename`.
+Tragically, this isn't as useful as it initially seems. Anything you edit in Windows will be changed back to root ownership and have the permissions set back to read/write/execute. If you edit a file on the windows side, `sudo chown username filename` and `chmod 644 filename`.
 
 ---
 ## Install Ruby
 
-Now you will install a series of dependencies. You need all of these.
+These Ruby bits are based on information at [Gorails.com](https://gorails.com/setup/windows/10) but some of the directions are outdated.
+
+You will install a series of dependencies. You need all of these.
 ```
 sudo apt-get install git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libxml2-dev libxslt1-dev libcurl4-openssl-dev software-properties-common libffi-dev libsqlite3-dev sqlite3
 ```
@@ -54,7 +54,7 @@ ruby -v
 ```
 The ruby -v command should output something similar to `ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]`
 
-Finally you need to install bundler and rehash.
+Finally you need to install bundler and rehash your environment.
 ```
 gem install bundler
 rbenv rehash
@@ -62,7 +62,7 @@ rbenv rehash
 
 ---
 ## Get a Database
-Next you're going to want a database. I use MariaDB. You'll also need to pick up redis and nodejs.
+Next you're going to want a database. We are using MariaDB. You'll also need to pick up redis and nodejs.
 ```
 sudo apt-get install mariadb-server libmariadb-dev
 sudo apt-get install redis-server
@@ -71,7 +71,7 @@ nodejs --version
 ```
 Again, with a succesful installation, nodejs --version will return a version and not an error.
 
-Now you are ready to configure MariaDB, to be explained in the next blog post.
+Now you are ready to configure MariaDB, to be explained in the [next blog post](MariaDB-Ubuntu-WSL.html).
 
 
 
