@@ -21,7 +21,7 @@
 title: Elaine's Learnings and Musings
 email: eethomp@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  In which an old-school bioinformatician transitions from R, Perl, and C++ to newer and better things. Tips and tricks   for Ruby on Rails, Python, Machine Learning, and AI.
+  In which a bioinformatician transitions from R, Perl, and C++ to web development things. Tips and tricks for Ruby on Rails, Python, Machine Learning, and AI.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Irishflute
