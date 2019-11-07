@@ -8,7 +8,7 @@ Where I left off on the Rails setup was installing MariaDB.
 
 First start up MariaDB with 
 ```
-sudo service start mysqld
+sudo service mysql start 
 ```
 
 Yep, the executable is still called mysql under the hood. Normally, the next step is `mysql -p -u root` to set the root password; however, in the special hell that is WSL, that command is rewarded with:
