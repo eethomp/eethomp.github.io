@@ -24,4 +24,4 @@ Knowng all that, consider Emerald. Now, one of my hobbies is reading about funct
 
 If the clinic is run by a quack, why are they allowed to stay open? Well I used to work at FDA and the answer is too complicated for this post. Basically they exist in a legal grey zone. When it comes to supplements like amino acids or NAD+, it's basically *caveat emptor*. The clinic is probably doing plenty of normal drug withdrawal protocols, and they probably do succesfully cure the small subset of addicts who genuinely want to be rid of their addition competely irrespective of whether NAD was involved. Neither doctor nor patient can ever know whether the alternative therapy helped, but they're both cognitively biased to believe it did.
 
-So watch for signs of quackery. Lots of buzzwords, testimonials, high cure rate, treats everything, and above all no real evidence of efectiveness.
+So watch for signs of quackery. Lots of buzzwords, testimonials, high cure rate, treats everything, and above all no real evidence of effectiveness.
