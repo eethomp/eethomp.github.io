@@ -32,3 +32,10 @@ Now update your develop branch.
 ```
 > git pull
 ```
+
+And a few commands to fix your development database if things get wonky after the git pull. Dropdb is a utility that's part of postgres. On MacOS it uses your login credentials so dropping a database is easy.
+```
+> dropdb my_databaename
+> bundle exec rake db:create
+> bundle exec rake db:migrate
+> bundle exec rake seed:init --trace
