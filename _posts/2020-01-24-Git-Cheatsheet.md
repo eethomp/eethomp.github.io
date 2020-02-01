@@ -39,3 +39,5 @@ And a few commands to fix your development database if things get wonky after th
 > bundle exec rake db:create
 > bundle exec rake db:migrate
 > bundle exec rake seed:init --trace
+```
+
