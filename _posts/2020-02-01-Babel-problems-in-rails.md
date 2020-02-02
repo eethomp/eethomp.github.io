@@ -13,7 +13,7 @@ I popped open the Chrome console and found a compilation error in the Webpack. I
 npm install @babel/core @babel/preset-env. 
 npm install -g npm
 ```
-Now, how to get the webpack to update? I tried "yarn install --check files" but that didn't help. It threw an error complaining about package-lock.json. Removing that caused yarn to fail with errors about config/webpacker.yml so I removed that too. That was bad. In the hopes of regenerating a working webpacker.yml I tried running rails webpacker:install but it just threw more errors. I tried a git pull but package.json and yarn.lock got merged which was not the plan. Yarn still wouldn't run. At that point, since I had no new code and nothing to lose, I deleted the whole development directory and checked out a fresh copy. FINALLY I could webpack, start the server, and with fresh babel and npm I had CSS.
+Now, how to get the webpack to update? I tried "yarn install --check files" but that didn't help. It threw an error complaining about package-lock.json. Removing that caused yarn to fail with errors about config/webpacker.yml so I removed that too. That was bad. In the hopes of regenerating a working webpacker.yml I tried running "rails webpacker:install" but it just threw more errors. I tried a git pull but package.json and yarn.lock had changed and got merged. Oops. I deletd them and pulled again but yarn still wouldn't run. At that point, since I had no new code and nothing to lose, I deleted the whole development directory and checked out a fresh copy. FINALLY I could webpack, start the server, and with fresh babel and npm I had CSS.
 
 So... the final solution for babel badness was
 ```
@@ -24,4 +24,4 @@ git clone <repo>
 yarn install --check files
 bundle exec rails s -p3000
 ```
-Not elegant but I was able to contimue working.
+Not elegant but I was able to continue working.
