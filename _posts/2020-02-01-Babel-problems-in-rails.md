@@ -1,3 +1,4 @@
+---
 layout: post
 title:  "Sudden babel problems in Rails"
 ---
