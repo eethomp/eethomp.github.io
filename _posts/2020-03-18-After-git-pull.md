@@ -18,10 +18,26 @@ Next, you need to see if there are any new gems and update the database.
 bundle install
 bundle exec rake db:migrate
 ```
+If the pull was a major refactor, sometimes it's best to just drop and recreate the development database. With pgsql here's how that works. 
 
-Now there is an important step. db:migrate often hoses up db/schema.rb.
+```
+dropdb development_db_name
+bundle exec rake db:create
+bundle exec rake db:migrate
+```
+
+Now there is an important step. db:migrate often alters db/schema.rb. If you don't get the old schema.rb back from git, it will merge unwanted changes and screw up your branch.
 ```
 git co db/schema.rb
 ```
 
-After that, resume with making a branch, seeding any new data and launching rails.
+Finally, make a branch, optionally clean out the database, seed, and launch the rails app.
+```
+git branch foo
+git co foo
+# sometimes it's a good idea to clean out the data before seeding
+bundle exec rake data:clear_all --trace
+# seed and launch the server
+bundle exec rake data:init --trace
+bundle exec rails s -p3000
+```
