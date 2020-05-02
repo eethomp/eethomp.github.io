@@ -26,4 +26,4 @@ Date|Currently Positive|Likely Deaths|Deaths|Recovered|Death Rate (%)
 28Apr20|1485|2|16|63|1.1%
 27Apr20|1525|2|11|29|0.8%
 
-
+By the way, while I think it's unfortunate that COVID-19 is in the prison systems, it was inevitable. As a country we have been in denial that COVID-19 is airborne, highly contagious, and spreads from presymptomatic and asymptomatic carriers. Keeping COVID-19 out of prisons in regions with active community spread is impossible and quarantine measures only delay the inevitable. Visitors, new prisoners, guards, and even court appearances and parole hearings expose prisoners to COVID-19 from the community. One undetected case is all it takes to start exponential spread in a confined community like a prison, ship, or nursing home.
