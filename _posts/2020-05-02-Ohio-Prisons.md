@@ -22,7 +22,7 @@ Date|Currently Positive|Likely Deaths|Deaths|Recovered|Death Rate (%)
 Date|Currently Positive|Likely Deaths|Deaths|Recovered|Death Rate (%)
 ---|---|---|---|---|---
 1May20|1467|2|21|71|1.5%
-30Apr20|1473|2|19|69|1.5%
+30Apr20|1473|2|19|69|1.4%
 28Apr20|1485|2|16|63|1.1%
 27Apr20|1525|2|11|29|0.8%
 
