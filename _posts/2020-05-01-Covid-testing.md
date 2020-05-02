@@ -3,8 +3,6 @@ layout: post
 title:  "COVID-19 Testing"
 ---
 
-## COVID-19 Testing
-
 There's a lot of confusion about COVID-19 testing, what it is, who it's for, and what it means. One of my smartest friends made an appointment for a COVID-19 test and we realized he had no idea which test he was getting or what it meant. Testing is being held up as a magic bullet against COVID-19 but we're very far from realizing the potential value of testing. I thought I'd write something hopefully simple and easy to understand about the types and challenges of COVID-19 testing.
 
 ### Nasal or throat swabs
