@@ -8,7 +8,7 @@ The article was disappointing in that it was long on assumptions and short on da
 
 The Ohio prison system is [reporting some numbers](https://www.drc.ohio.gov/) on the COVID-19 status in the prison system so I'm going to track the two facilities that had a high number of positive tests here.
  
-#### MCI
+#### Marion Correctional Institution
 
 Date|Currently Positive|Likely Deaths|Deaths|Recovered|Death Rate (%)
 ---|---|---|---|---|---
@@ -17,7 +17,7 @@ Date|Currently Positive|Likely Deaths|Deaths|Recovered|Death Rate (%)
 28Apr20|1975|0|5|34|0.2%
 17Apr20|1992|0|4|19|0.2%
 
-#### PCI
+#### Pickaway Correctional Institution
 
 Date|Currently Positive|Likely Deaths|Deaths|Recovered|Death Rate (%)
 ---|---|---|---|---|---
