@@ -12,15 +12,17 @@ The Ohio prison system is [reporting some numbers](https://www.drc.ohio.gov/) on
 
 Date|Currently Positive|Likely Deaths|Deaths|Recovered|Death Rate (%)
 ---|---|---|---|---|---
+2May20|1999|0|9|106|0.5%
 1May20|2016|0|8|69|0.4%
 30Apr20|1935|0|7|69|0.3%
 28Apr20|1975|0|5|34|0.2%
-17Apr20|1992|0|4|19|0.2%
+27Apr20|1992|0|4|19|0.2%
 
 #### Pickaway Correctional Institution
 
 Date|Currently Positive|Likely Deaths|Deaths|Recovered|Death Rate (%)
 ---|---|---|---|---|---
+2May20|1456|2|21|86|1.5%
 1May20|1467|2|21|71|1.5%
 30Apr20|1473|2|19|69|1.4%
 28Apr20|1485|2|16|63|1.1%
