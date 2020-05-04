@@ -15,6 +15,7 @@ Notice the number of "recovered" prisoners at MCI has jumped dramatically. No de
 
 Date|Currently Positive|Likely Deaths|Deaths|Recovered|Death Rate (%)
 ---|---|---|---|---|---
+4May20|1746|0|11|409|0.5%
 3May20|1749|0|10|409|0.5%
 2May20|1999|0|9|106|0.5%
 1May20|2016|0|8|69|0.4%
@@ -26,6 +27,7 @@ Date|Currently Positive|Likely Deaths|Deaths|Recovered|Death Rate (%)
 
 Date|Currently Positive|Likely Deaths|Deaths|Recovered|Death Rate (%)
 ---|---|---|---|---|---
+4May20|1554|2|23|88|1.5%
 3May20|1456|2|21|86|1.5%
 2May20|1456|2|21|86|1.5%
 1May20|1467|2|21|71|1.5%
