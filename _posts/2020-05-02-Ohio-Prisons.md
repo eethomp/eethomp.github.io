@@ -10,11 +10,15 @@ The Ohio prison system is [reporting some numbers](https://www.drc.ohio.gov/) on
 
 #### May 3
 Notice the number of "recovered" prisoners at MCI has jumped dramatically. No definition of recovered has been provided. If these people were symptomatic, it paints a very different picture than the claim that 96% of the positively tested prisoners were asymptompic. Prison-wide, the death rate stands at 36/3495, a 1% case fatality rate.
+
+### May 7
+Over half of the prisoners in MCI and PCI combined have been listed as recovered now. Prison-wide, the case fatality rate is still holding at 1% with 43/4287 diagnosed cases. This is consistent with global case fatality estimates.
  
 #### Marion Correctional Institution
 
 Date|Currently Positive|Likely Deaths|Deaths|Recovered|Death Rate (%)
 ---|---|---|---|---|---
+7May20|1134|0|12|1066|0.5%
 4May20|1746|0|11|409|0.5%
 3May20|1749|0|10|409|0.5%
 2May20|1999|0|9|106|0.5%
@@ -27,6 +31,7 @@ Date|Currently Positive|Likely Deaths|Deaths|Recovered|Death Rate (%)
 
 Date|Currently Positive|Likely Deaths|Deaths|Recovered|Death Rate (%)
 ---|---|---|---|---|---
+7May20|416|2|25|1221|1.6%
 4May20|1554|2|23|88|1.5%
 3May20|1456|2|21|86|1.5%
 2May20|1456|2|21|86|1.5%
