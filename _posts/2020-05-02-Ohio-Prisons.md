@@ -39,7 +39,7 @@ Date|Currently Positive|Likely Deaths|Deaths|Recovered|Death Rate (%)
 By the way, while I think it's unfortunate that COVID-19 is in the prison systems, it was inevitable. As a country we have been in denial that COVID-19 is airborne, highly contagious, and spreads from presymptomatic and asymptomatic carriers. Keeping COVID-19 out of prisons in regions with active community spread is impossible and quarantine measures only delay the inevitable. Visitors, new prisoners, guards, and even court appearances and parole hearings expose prisoners to COVID-19 from the community. One undetected case is all it takes to start exponential spread in a confined community like a prison, ship, or nursing home.
 
 #### May 11
-Prison-wide death rate is 1.1% with 48 dead of 4359 cases.
+At this point a little armchair epidemiology on PCI and MCI is possible. There are 3811 total caes in the two prisons, with 42 deaths. If the claim that 96% are asymptomatic is true, only 152 prisoners showed symptoms. That would make for an appalling and unlikely fatality rate of 28% among symptomatic prisoners. There are still a fair number of unrecovered people but 96% was clearly not the case.
 
 #### May 7
 Over half of the prisoners in MCI and PCI combined have been listed as recovered now. Prison-wide, the case fatality rate is still holding at 1% with 43/4287 diagnosed cases. This is consistent with global case fatality estimates.
