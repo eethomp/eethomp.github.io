@@ -8,16 +8,11 @@ The article was disappointing in that it was long on assumptions and short on da
 
 The Ohio prison system is [reporting some numbers](https://www.drc.ohio.gov/) on the COVID-19 status in the prison system so I'm going to track the two facilities that had a high number of positive tests here.
 
-#### May 3
-Notice the number of "recovered" prisoners at MCI has jumped dramatically. No definition of recovered has been provided. If these people were symptomatic, it paints a very different picture than the claim that 96% of the positively tested prisoners were asymptompic. Prison-wide, the death rate stands at 36/3495, a 1% case fatality rate.
-
-#### May 7
-Over half of the prisoners in MCI and PCI combined have been listed as recovered now. Prison-wide, the case fatality rate is still holding at 1% with 43/4287 diagnosed cases. This is consistent with global case fatality estimates.
- 
 #### Marion Correctional Institution
 
 Date|Currently Positive|Likely Deaths|Deaths|Recovered|Death Rate (%)
 ---|---|---|---|---|---
+11May20|535|0|13|1599|0.6%
 7May20|1134|0|12|1066|0.5%
 4May20|1746|0|11|409|0.5%
 3May20|1749|0|10|409|0.5%
@@ -31,6 +26,7 @@ Date|Currently Positive|Likely Deaths|Deaths|Recovered|Death Rate (%)
 
 Date|Currently Positive|Likely Deaths|Deaths|Recovered|Death Rate (%)
 ---|---|---|---|---|---
+11May20|404|2|27|1231|1.7%
 7May20|416|2|25|1221|1.6%
 4May20|1554|2|23|88|1.5%
 3May20|1456|2|21|86|1.5%
@@ -41,3 +37,14 @@ Date|Currently Positive|Likely Deaths|Deaths|Recovered|Death Rate (%)
 27Apr20|1525|2|11|29|0.8%
 
 By the way, while I think it's unfortunate that COVID-19 is in the prison systems, it was inevitable. As a country we have been in denial that COVID-19 is airborne, highly contagious, and spreads from presymptomatic and asymptomatic carriers. Keeping COVID-19 out of prisons in regions with active community spread is impossible and quarantine measures only delay the inevitable. Visitors, new prisoners, guards, and even court appearances and parole hearings expose prisoners to COVID-19 from the community. One undetected case is all it takes to start exponential spread in a confined community like a prison, ship, or nursing home.
+
+#### May 11
+Prison-wide death rate is 1.1% with 48 dead of 4359 cases.
+
+#### May 7
+Over half of the prisoners in MCI and PCI combined have been listed as recovered now. Prison-wide, the case fatality rate is still holding at 1% with 43/4287 diagnosed cases. This is consistent with global case fatality estimates.
+ 
+#### May 3
+Notice the number of "recovered" prisoners at MCI has jumped dramatically. No definition of recovered has been provided. If these people were symptomatic, it paints a very different picture than the claim that 96% of the positively tested prisoners were asymptompic. Prison-wide, the death rate stands at 36/3495, a 1% case fatality rate.
+
+
