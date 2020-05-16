@@ -12,6 +12,7 @@ The Ohio prison system is [reporting some numbers](https://www.drc.ohio.gov/) on
 
 Date|Currently Positive|Likely Deaths|Deaths|Recovered|Death Rate (%)
 ---|---|---|---|---|---
+16May20|481|0|14|1648|0.7%
 13May20|507|0|13|1635|0.6%
 11May20|535|0|13|1599|0.6%
 7May20|1134|0|12|1066|0.5%
@@ -27,6 +28,7 @@ Date|Currently Positive|Likely Deaths|Deaths|Recovered|Death Rate (%)
 
 Date|Currently Positive|Likely Deaths|Deaths|Recovered|Death Rate (%)
 ---|---|---|---|---|---
+16May20|250|2|33|1384|2.1%
 13May20|368|2|30|1258|1.9%
 11May20|404|2|27|1231|1.7%
 7May20|416|2|25|1221|1.6%
