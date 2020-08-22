@@ -2,7 +2,7 @@
 layout: post
 title:  "The Betta Police and When to Ignore Them"
 ---
-![Cube Tank](assets/2020-08-12-nano_sm.jpg)
+![Cube Tank](/assets/2020-08-12-nano_sm.jpg)
 # The Betta Police and When to Ignore Them or "How Big is that Tank?"
 
 ## Part I
